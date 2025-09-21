@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b31b1aa21c73a74296d7ba2d088170b, type: 3}
-  m_Name: Bread
+  m_Name: Cabage Slices
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObjectSO
-  prefab: {fileID: 1659541296300472108, guid: df316d5338389ac4faefd00c70202805, type: 3}
-  sprite: {fileID: 21300000, guid: 77b28124b8bda494381c80bd5aa42c22, type: 3}
-  objectName: Bread
+  prefab: {fileID: 1659541296300472108, guid: 87f3c6b422c1eaf47a58706f8403b0b8, type: 3}
+  sprite: {fileID: 21300000, guid: bee24f07c57157e45a946eed3bfe8b84, type: 3}
+  objectName: Sliced Cabage

@@ -64,7 +64,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6107358501765340493}
   m_Layer: 6
-  m_Name: GameObject
+  m_Name: CounterTopPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: 4841286013473667211, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3928afb5321bb3d489bbd4ac581b29a2, type: 3}
+      objectReference: {fileID: 21300000, guid: 77b28124b8bda494381c80bd5aa42c22, type: 3}
     m_RemovedComponents:
     - {fileID: 6289625630049244101, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
     m_RemovedGameObjects: []
@@ -281,7 +281,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 392862897719091814, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_Name
-      value: Plate Counter
+      value: Bread Counter
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -369,4 +369,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ContainerCounter
   counterTopPoint: {fileID: 4211037718253632863}
-  kitchenObjectSO: {fileID: 11400000, guid: cdb047cb55e103b4e95667b28b580db5, type: 2}
+  kitchenObjectSO: {fileID: 11400000, guid: cb24c1d0f63a2f54b87582fd96338199, type: 2}
