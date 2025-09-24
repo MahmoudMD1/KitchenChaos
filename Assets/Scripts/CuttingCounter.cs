@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class CuttingCounter : BaseCounter
 {
+
+    
     [SerializeField] private CuttingRecipeSO[] cuttingRecipeArry;
     public override void Interact(PlayerController player)
     {
@@ -9,19 +11,24 @@ public class CuttingCounter : BaseCounter
         {
             if (player.HasKitchenObject())
             {
-                player.GetKitchenObject().SetKitchenObjectParent(this);
+                if (HasRecipeWithInput(player.GetKitchenObject().GetKitchenObjectSO()))
+                {
+
+                    player.GetKitchenObject().SetKitchenObjectParent(this);
+                    
+                }
 
             }
             else
             {
-
+                // player not carring anything
             }
         }
         else
         {
             if (player.HasKitchenObject())
             {
-
+                
             }
             else
             {
@@ -32,7 +39,8 @@ public class CuttingCounter : BaseCounter
 
     public override void InteractAltrnate(PlayerController player)
     {
-        if (HasKitchenObject())
+
+        if (HasKitchenObject())//&& HasRecipeWithInput(player.GetKitchenObject().GetKitchenObjectSO())
         {
             //cut
             KitchenObjectSO outputKitchenObjectSO = GetOutForInput(GetKitchenObject().GetKitchenObjectSO());
@@ -41,6 +49,19 @@ public class CuttingCounter : BaseCounter
 
             KitchenObject.SpwanKitchenObject(outputKitchenObjectSO, this);
         }
+    }
+    private bool HasRecipeWithInput(KitchenObjectSO inputKictchenObjectSO)
+    {
+        foreach (CuttingRecipeSO cuttingRecipe in cuttingRecipeArry)
+        {
+            if (cuttingRecipe.input == inputKictchenObjectSO)
+            {
+                return true;
+            }
+            
+        }
+        return false;
+
     }
     private KitchenObjectSO GetOutForInput(KitchenObjectSO inputKictchenObjectSO)
     {
@@ -53,5 +74,6 @@ public class CuttingCounter : BaseCounter
         }
         return null;
     }
-    
+
+
 }

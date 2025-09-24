@@ -483,6 +483,26 @@ PrefabInstance:
       propertyPath: cutKitchenObjectSo
       value: 
       objectReference: {fileID: 11400000, guid: cc12006e86c974d41addfc5bcd9326bc, type: 2}
+    - target: {fileID: 6877406799633452277, guid: 23af41eb61d29d1408e0ee1616fbc477, type: 3}
+      propertyPath: cuttingRecipeArry.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877406799633452277, guid: 23af41eb61d29d1408e0ee1616fbc477, type: 3}
+      propertyPath: 'cuttingRecipeArry.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: dfa5cbac5cb1f3d4f8b21c5a513ed91c, type: 2}
+    - target: {fileID: 6877406799633452277, guid: 23af41eb61d29d1408e0ee1616fbc477, type: 3}
+      propertyPath: 'cuttingRecipeArry.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b3ee390caba4d4478d7554b28f6a64d, type: 2}
+    - target: {fileID: 6877406799633452277, guid: 23af41eb61d29d1408e0ee1616fbc477, type: 3}
+      propertyPath: 'cuttingRecipeArry.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: be111c51eec1e6f439ea01b0c2fe9ab1, type: 2}
+    - target: {fileID: 6877406799633452277, guid: 23af41eb61d29d1408e0ee1616fbc477, type: 3}
+      propertyPath: 'cuttingRecipeArry.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: dfa5cbac5cb1f3d4f8b21c5a513ed91c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1455,7 +1475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2176530991469375660, guid: 162805148ee86f24db768ff577f42005, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.97
+      value: 4.997
       objectReference: {fileID: 0}
     - target: {fileID: 2176530991469375660, guid: 162805148ee86f24db768ff577f42005, type: 3}
       propertyPath: m_LocalRotation.w
