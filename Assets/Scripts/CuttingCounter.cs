@@ -39,8 +39,10 @@ public class CuttingCounter : BaseCounter
 
     public override void InteractAltrnate(PlayerController player)
     {
+        Debug.Log(HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()));
+        
 
-        if (HasKitchenObject())//&& HasRecipeWithInput(player.GetKitchenObject().GetKitchenObjectSO())
+        if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()))
         {
             //cut
             KitchenObjectSO outputKitchenObjectSO = GetOutForInput(GetKitchenObject().GetKitchenObjectSO());
@@ -63,6 +65,7 @@ public class CuttingCounter : BaseCounter
         return false;
 
     }
+    
     private KitchenObjectSO GetOutForInput(KitchenObjectSO inputKictchenObjectSO)
     {
         foreach (CuttingRecipeSO cuttingRecipe in cuttingRecipeArry)
