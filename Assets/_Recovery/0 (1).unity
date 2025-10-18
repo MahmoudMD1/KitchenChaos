@@ -1792,10 +1792,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3316140083708085765, guid: 162805148ee86f24db768ff577f42005, type: 3}
-      propertyPath: kitchenObjectSO
-      value: 
-      objectReference: {fileID: 11400000, guid: e1ae743ad8a17d4458e5cd20e27f92e1, type: 2}
     - target: {fileID: 4200089859138734119, guid: 162805148ee86f24db768ff577f42005, type: 3}
       propertyPath: m_Name
       value: Burger Counter
@@ -2240,10 +2236,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoveCounter
       objectReference: {fileID: 0}
-    - target: {fileID: 1174077300594448633, guid: a8b4cb44f39178c4ca0b7d34e5e1ca83, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2503205764408210477, guid: a8b4cb44f39178c4ca0b7d34e5e1ca83, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.76
@@ -2283,18 +2275,6 @@ PrefabInstance:
     - target: {fileID: 2503205764408210477, guid: a8b4cb44f39178c4ca0b7d34e5e1ca83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823864422137179430, guid: a8b4cb44f39178c4ca0b7d34e5e1ca83, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7622978668166654727, guid: a8b4cb44f39178c4ca0b7d34e5e1ca83, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7684492608874705730, guid: a8b4cb44f39178c4ca0b7d34e5e1ca83, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

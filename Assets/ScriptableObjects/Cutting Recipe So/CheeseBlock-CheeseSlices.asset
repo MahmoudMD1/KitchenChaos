@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dfe0b1906fe9dc4cab0f6dc073ace63, type: 3}
+  m_Script: {fileID: 11500000, guid: ea39cd7b09eee50419fbaa8f07532084, type: 3}
   m_Name: CheeseBlock-CheeseSlices
   m_EditorClassIdentifier: Assembly-CSharp::CuttingRecipeSO
   input: {fileID: 11400000, guid: 32ff3401ae8cdd64899202aecde58a0b, type: 2}
   output: {fileID: 11400000, guid: 059adc08dde0c1e4c81b8fd7e8503c95, type: 2}
+  maxProgress: 3

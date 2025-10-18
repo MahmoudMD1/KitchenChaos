@@ -206,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.78
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.y
@@ -214,7 +214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalRotation.w
@@ -289,6 +289,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1016eb73c37f5441be1d7f7e196668c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
-  kitchenObjectSO: {fileID: 11400000, guid: 9ae8c57f1cd856741ad9f1090480fb7e, type: 2}
   counterTopPoint: {fileID: 3269223639999013865}
-  sceondClearCounter: {fileID: 0}
+  kitchenObjectSO: {fileID: 11400000, guid: 9ae8c57f1cd856741ad9f1090480fb7e, type: 2}

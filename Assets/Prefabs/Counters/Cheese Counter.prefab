@@ -281,11 +281,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 392862897719091814, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_Name
-      value: CounterianerCounter
+      value: Cheese Counter
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.24
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.y
@@ -293,7 +293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382011298003835629, guid: 134e19738d0e52d45bec03d4bee370ed, type: 3}
       propertyPath: m_LocalRotation.w

@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dfe0b1906fe9dc4cab0f6dc073ace63, type: 3}
+  m_Script: {fileID: 11500000, guid: ea39cd7b09eee50419fbaa8f07532084, type: 3}
   m_Name: Cabage-SliceCabage
   m_EditorClassIdentifier: Assembly-CSharp::CuttingRecipeSO
   input: {fileID: 11400000, guid: f55bdd4a0bf4bd34fac0e74c4c39cc02, type: 2}
   output: {fileID: 11400000, guid: 9dffca46d7a7cce4ebe163856eea04ff, type: 2}
+  maxProgress: 4
