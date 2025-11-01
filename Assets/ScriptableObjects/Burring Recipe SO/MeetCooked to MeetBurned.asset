@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41653f9d6e4184a4da068c0e079ce21e, type: 3}
+  m_Name: MeetCooked to MeetBurned
+  m_EditorClassIdentifier: Assembly-CSharp::BurningRecipeSO
+  input: {fileID: 11400000, guid: 7e3187f8ae4c50a4699652ae0b707502, type: 2}
+  output: {fileID: 11400000, guid: 105605fc97fb07e4ea175cc1dcab56dc, type: 2}
+  burningTimerMax: 5
