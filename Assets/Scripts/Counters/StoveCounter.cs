@@ -82,7 +82,10 @@ public class StoveCounter : BaseCounter ,IHasProgress
                         {
                             state = state
                         });
-                        
+                        OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs
+                        {
+                            progressNormalized =0f
+                        });
                     }
                     
                     break;
@@ -93,7 +96,7 @@ public class StoveCounter : BaseCounter ,IHasProgress
         if (HasKitchenObject())
         {
             
-            Debug.Log(fryingTimer);
+            
         }
     }
 
@@ -142,6 +145,10 @@ public class StoveCounter : BaseCounter ,IHasProgress
                 OnStateChange?.Invoke(this, new OnStateChnageEventArgs
                 {
                     state = state
+                });
+                OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs
+                {
+                    progressNormalized = 0f
                 });
             }
         }
