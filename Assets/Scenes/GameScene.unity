@@ -380,6 +380,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d422bd6e1731cb64280a4b617dea9693, type: 3}
+--- !u!4 &254666719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6107358501765340493, guid: 0da10925b947c6e408189f99a204b833, type: 3}
+  m_PrefabInstance: {fileID: 1454625957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &272693601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,7 +2055,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 749897958634720599, guid: 0da10925b947c6e408189f99a204b833, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2099688695}
   m_SourcePrefab: {fileID: 100100000, guid: 0da10925b947c6e408189f99a204b833, type: 3}
 --- !u!1 &1470174941 stripped
 GameObject:
@@ -2393,6 +2401,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6382081163139245129, guid: 79d74ed572500be4ba586454db38aea9, type: 3}
   m_PrefabInstance: {fileID: 1652123511}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2099688693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 749897958634720599, guid: 0da10925b947c6e408189f99a204b833, type: 3}
+  m_PrefabInstance: {fileID: 1454625957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2099688695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099688693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad84b6d653e68e64dbc63af64d725bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlateCounterVisual
+  plateCounter: {fileID: 847430956}
+  counterTopPoint: {fileID: 254666719}
+  plateVisualPrefab: {fileID: 1659541296300472108, guid: 0d2984899e4451349a5fe743e2e1e8f6, type: 3}
 --- !u!4 &2118876384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5746510571723062015, guid: 1d63d51d6e6b64f42b11c53599857e93, type: 3}

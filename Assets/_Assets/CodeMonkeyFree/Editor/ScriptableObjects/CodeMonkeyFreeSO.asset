@@ -14,39 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1762284364
+  lastShownTimestamp: 1762626959
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1762284364
+  checkedLastUpdateTimestamp: 1762626959
   lastQOTDResponse:
-    questionId: 238
-    questionText: Where is the modulo % operator particularly useful?
-    answerA: Looping back on a list
-    answerB: Counting elements in a list
-    answerC: Creating a new list with size
+    questionId: 239
+    questionText: What is the difference between Action&lt;float&gt; and Func&lt;float&gt;
+      ?
+    answerA: Both are the same
+    answerB: Action&#60;float&#62; takes float parameter and Func&#60;float&#62;
+      returns float
+    answerC: Func&#60;float&#62; takes float parameter and Action&#60;float&#62;
+      returns float
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1762284364
+  lastQotdTimestamp: 1762626959
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
     topText: Stay up to date with the latest in Game Dev straight to your inbox!
     topLink: gamedevreport
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1762284364
+  lastDynamicHeaderTimestamp: 1762626959
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1762284364
+  websiteLatestMessageTimestamp: 1762626959
   websiteLatestVideos:
     videos:
+    - youTubeId: Gl0leX7gqVA
+      title: Dispelling the Unity looks bad MYTH!
+    - youTubeId: 0zljaBBiOXo
+      title: Unity turns 20! Get FREE Assets and Make Games!
+    - youTubeId: slMe3sbS_KM
+      title: What is Unity Studio?
     - youTubeId: mtNIuwGDYUc
       title: Do GAMERS Like Pixel Art?
-    - youTubeId: SFVSgORBgOg
-      title: How do you REFACTOR code? (EXTREMELY Important!)
-    - youTubeId: g8RbZ8ymWas
-      title: 7 SPOOKY Game Dev MYTHs that aren't REAL!
-    - youTubeId: UGhId8Zd3eM
-      title: BEST NEW Visual Assets to INSPIRE YOU! (OCTOBER 2025)
-  websiteLatestVideosTimestamp: 1762284364
+  websiteLatestVideosTimestamp: 1762626959
